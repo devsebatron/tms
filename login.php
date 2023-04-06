@@ -22,9 +22,9 @@ include('./db_connect.php');
 <style>
   body{
   margin:0;
-  color:#6a6f8c;
-  background:#c8c8c8;
-  font:600 16px/18px 'Open Sans',sans-serif;
+  color: whitesmoke;
+  background: lemonchiffon;
+  font:500 16px/18px 'georgia',serif;
 }
 *,:after,:before{box-sizing:border-box}
 .clearfix:after,.clearfix:before{content:'';display:table}
@@ -33,19 +33,20 @@ a{color:inherit;text-decoration:none}
 
 .login-wrap{
   width:100%;
-  margin:auto;
-  max-width:525px;
-  min-height:670px;
+  margin: auto;
+  max-width:500px;
+  min-height:512px;
   position:relative;
-  background:url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center;
+  background:url(https://cdn.elearningindustry.com/wp-content/uploads/2020/07/how-to-make-project-management-successful.jpg) no-repeat center;
+  background-size: cover;
   box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
 }
 .login-html{
   width:100%;
   height:100%;
   position:absolute;
-  padding:90px 70px 50px 70px;
-  background:rgba(40,57,101,.9);
+  padding:65px 70px 50px 70px;
+  background:rgba(10,10,160,.7);
 }
 .login-html .sign-in-htm,
 .login-html .sign-up-htm{
@@ -63,45 +64,40 @@ a{color:inherit;text-decoration:none}
 .login-form .group .check{
   display:none;
 }
-.login-html .tab,
-.login-form .group .label,
-.login-form .group .button{
-  text-transform:uppercase;
-}
+
 .login-html .tab{
-  font-size:22px;
+  font-size:19px;
   margin-right:15px;
-  padding-bottom:5px;
-  margin:0 15px 10px 0;
+  padding-bottom:10px;
+  margin:0 50px 10px 0;
   display:inline-block;
-  border-bottom:2px solid transparent;
+  border-bottom:3px solid transparent;
 }
 .login-html .sign-in:checked + .tab,
 .login-html .sign-up:checked + .tab{
   color:#fff;
-  border-color:#1161ee;
+  border-color:white;
 }
 .login-form{
-  min-height:345px;
+  min-height:325px;
   position:relative;
   perspective:1000px;
   transform-style:preserve-3d;
 }
 .login-form .group{
-  margin-bottom:15px;
+  margin-bottom:16px;
 }
 .login-form .group .label,
 .login-form .group .input,
 .login-form .group .button{
   width:100%;
   color:#fff;
-  display:block;
 }
 .login-form .group .input,
 .login-form .group .button{
   border:none;
-  padding:15px 20px;
-  border-radius:25px;
+  padding:10px 20px;
+  border-radius:30px;
   background:rgba(255,255,255,.1);
 }
 .login-form .group input[data-type="password"]{
@@ -109,11 +105,14 @@ a{color:inherit;text-decoration:none}
   -webkit-text-security:circle;
 }
 .login-form .group .label{
-  color:#aaa;
-  font-size:12px;
+  color:white;
+  font-size:15px;
+  font-weight: normal;
 }
-.login-form .group .button{
-  background:#1161ee;
+.login-form .group .button {
+background: white;
+color: #000080;
+font-weight: bold;
 }
 .login-form .group label .icon{
   width:15px;
@@ -163,57 +162,15 @@ a{color:inherit;text-decoration:none}
 }
 
 .hr{
-  height:2px;
-  margin:60px 0 50px 0;
-  background:rgba(255,255,255,.2);
+  height:3px;
+  margin:50px 0 50px 0;
+  background:rgba(255,255,255,.3);
 }
 .foot-lnk{
   text-align:center;
 }
 </style>
 <body>
-<!--<div class="login-box">
-  <div class="login-logo">
-    <a href="#" class="text-white"><b>- Admin</b></a>
-  </div>
-  /.login-logo
-  <div class="card">
-    <div class="card-body login-card-body">
-      <form action="" id="login-form">
-        <div class="input-group mb-3">
-          <input type="email" class="form-control" name="email" required placeholder="Email">
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-envelope"></span>
-            </div>
-          </div>
-        </div>
-        <div class="input-group mb-3">
-          <input type="password" class="form-control" name="password" required placeholder="Password">
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-lock"></span>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-8">
-            <div class="icheck-primary">
-              <input type="checkbox" id="remember">
-              <label for="remember">
-                Remember Me
-              </label>
-            </div>
-          </div>
-          <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
-          </div>
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
- -->
 <div class="login-wrap">
   <form action="" id="login-form">
       <div class="login-html">
@@ -236,7 +193,7 @@ a{color:inherit;text-decoration:none}
               </label>
             </div>
             <div class="group">
-              <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+              <button type="submit" class="button">Sign In</button>
             </div>
             <div class="hr"></div>
             <div class="foot-lnk">
