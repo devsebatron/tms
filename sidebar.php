@@ -88,14 +88,9 @@
             </ul>
             <li class="nav-item">
                 <a href="./index.php?page=aboutus" class="nav-link nav-task_list">
-<<<<<<< HEAD
-                <i class="fas fa-sharp fa-circle fa-info nav-icon"></i>
-                <p>About Us</p>
-=======
                   <i class="fas fa-info-circle nav-icon"></i>
                   <p>About Us</p>
->>>>>>> 8008831ca034ddadb30e504bdb21c3ac0585a8ac
-                </a>
+                                </a>
           </li>
           </li>
         <?php endif; ?>
