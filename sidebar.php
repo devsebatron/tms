@@ -1,7 +1,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-qgyWs2Kj6F9ZJz5uG1xU6g3qB9LpShzFTj3W8VvzwsfZ5G5Q14wjbRWJ8M0vRtkG1mJR2KVH+wLWzNU+IYRmDw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<aside class="main-sidebar sidebar-dark-primary elevation-4 bg-info col-md-3">
-    <div class="dropdown">
+<aside class="main-sidebar sidebar-dark-primary elevation-4 bg-navy col-md-3">
+      <div class="dropdown">
         <?php if($_SESSION['login_type'] == 1): ?>
           <!--<h2 class="text-center p-8 m-7 "><b>KIN</b></h2>-->      
     </div>
@@ -88,8 +88,8 @@
             </ul>
             <li class="nav-item">
                 <a href="./index.php?page=aboutus" class="nav-link nav-task_list">
-                  <i class="fas fa-tasks nav-icon"></i>
-                  <p>About Us</p>
+                <i class="fas fa-sharp fa-circle fa-info nav-icon"></i>
+                <p>About Us</p>
                 </a>
           </li>
           </li>

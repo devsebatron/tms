@@ -32,9 +32,9 @@
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-4">
-            <h1 class="m-0"><?php echo $title ?></h1>
+        <div class="row mb-1">
+          <div class="col-sm-2">
+            <h1 class="m-0">About us</h1>
           </div><!-- /.col -->
 
         </div><!-- /.row -->
@@ -121,8 +121,8 @@
   <!-- /.control-sidebar -->
 
   <!-- Main Footer -->
-  <footer class="main-footer">
-    <strong><a>KIN Management System</a>.</strong>
+  <footer class="main-footer" style="font-size: 12px; padding: 4px;">
+        <strong><a>KIN Management System</a>.</strong>
     <div class="float-right d-none d-sm-inline-block">
       <b><?php echo $_SESSION['system']['name'] ?></b>
     </div>
