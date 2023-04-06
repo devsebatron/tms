@@ -88,7 +88,7 @@
             </ul>
             <li class="nav-item">
                 <a href="./index.php?page=aboutus" class="nav-link nav-task_list">
-                  <i class="fas fa-tasks nav-icon"></i>
+                  <i class="fas fa-info-circle nav-icon"></i>
                   <p>About Us</p>
                 </a>
           </li>
