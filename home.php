@@ -5,12 +5,12 @@ if($_SESSION['login_type'] != 1)
   $twhere = "  ";
 ?>
 <!-- Info boxes -->
- <div class="col-12">
-          <div class="card">
-            <div class="card-body">
-              Welcome <?php echo $_SESSION['login_name'] ?>!
-            </div>
-          </div>
+ <div class="col-20">
+      <div class="card w-100" style="height: 400px; width: 900px">
+      <div class="card-body" style="height: 500px; width: 800px;">
+        Welcome <?php echo $_SESSION['login_name'] ?>!
+      </div>
+      </div>
   </div>
   <hr>
   <?php 
@@ -30,9 +30,9 @@ if($_SESSION['login_type'] != 1)
     ?>
         
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-10">
         <div class="card card-outline card-success">
-          <div class="card-header">
+                  <div class="card-header">
             <b>Project Progress</b>
           </div>
           <div class="card-body p-0">

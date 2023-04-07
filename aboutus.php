@@ -7,8 +7,7 @@
 </head>
 <body>
 	<div class="container">
-		<h1>About Us</h1>
-		<p>KIN Task Management System is a project management tool developed by a team of dedicated developers.</p>
+	<h1><strong>KIN </strong><span style="font-size: 0.6em; display: inline-block;">   Task Management System</span></h1>		<p>A project management tool developed by a team of dedicated developers.</p>
 		<div class="row">
 			<div class="col-md-4">
 				<div class="card">
