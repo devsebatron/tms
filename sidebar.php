@@ -97,8 +97,9 @@
                     <i class="fas fa-info-circle nav-icon"></i>
                     <p>About Us</p>
                    </a>
-                   
+
            </li>
+           
                 
           </li>
           </li>
@@ -125,6 +126,21 @@
         }
 
   		}
+      
      
-  	})
+  	}
+
+    )
+    $(document).ready(function() {
+  // get current page URL
+  var currentUrl = window.location.href;
+  
+  // check if current URL contains "aboutus" keyword
+  if (currentUrl.indexOf("aboutus") !== -1) {
+    // if it does, add "active" class to the "About Us" link
+    $(".nav-about_us").addClass("active");
+  }
+});
+
+    
   </script>

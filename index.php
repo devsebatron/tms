@@ -34,7 +34,7 @@
       <div class="container-fluid">
         <div class="row mb-1">
           <div class="col-sm-2">
-            <h1 class="m-0">About us</h1>
+            <h1 class="m-0"><?php echo $title ?></h1>
           </div><!-- /.col -->
 
         </div><!-- /.row -->
