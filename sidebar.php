@@ -24,6 +24,7 @@
               </p>
             </a>
           </li>  
+          
           <li class="nav-item">
             <a href="#" class="nav-link nav-edit_project nav-view_project">
               <i class="nav-icon fas fa-layer-group"></i>
@@ -62,6 +63,8 @@
                   <p>Report</p>
                 </a>
           </li>
+          
+          
           <?php endif; ?>
           <?php if($_SESSION['login_type'] == 1): ?>
           <li class="nav-item">
@@ -86,11 +89,17 @@
                 </a>
               </li>
             </ul>
+          </li>
+          <?php endif; ?>
+          <?php if($_SESSION['login_type'] == 1): ?>
             <li class="nav-item">
-                <a href="./index.php?page=aboutus" class="nav-link nav-task_list">
-                  <i class="fas fa-info-circle nav-icon"></i>
-                  <p>About Us</p>
-                </a>
+                  <a href="./index.php?page=aboutus" class="nav-link nav-about_us">
+                    <i class="fas fa-info-circle nav-icon"></i>
+                    <p>About Us</p>
+                   </a>
+                   
+           </li>
+                
           </li>
           </li>
         <?php endif; ?>
