@@ -93,7 +93,7 @@
           <?php endif; ?>
           <?php if($_SESSION['login_type'] == 1): ?>
             <li class="nav-item">
-                  <a href="./index.php?page=aboutus" class="nav-link nav-about_us">
+                  <a href="./index.php?page=about_us" class="nav-link nav-about_us">
                     <i class="fas fa-info-circle nav-icon"></i>
                     <p>About Us</p>
                    </a>
