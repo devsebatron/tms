@@ -1,13 +1,13 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-qgyWs2Kj6F9ZJz5uG1xU6g3qB9LpShzFTj3W8VvzwsfZ5G5Q14wjbRWJ8M0vRtkG1mJR2KVH+wLWzNU+IYRmDw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<aside class="main-sidebar sidebar-dark-primary elevation-4 bg-info col-md-3">
+<aside class="main-sidebar sidebar-dark-primary elevation-4 bg-navy col-md-3">
     <div class="dropdown">
         <?php if($_SESSION['login_type'] == 1): ?>
           <!--<h2 class="text-center p-8 m-7 "><b>KIN</b></h2>-->      
     </div>
     <div class="sidebar pb-4 mb-4">
       <div class="d-flex flex-column">
-        <img src="assets/uploads/logo.png" class="img-fluid" style="height: auto; width: 100%; background-color: white;">
+        <img src="assets/uploads/logo2.png" class="img-fluid" style="height: auto; width: 100%; background-color: none;">
         <div class="d-flex flex-column justify-content-center align-items-center flex-grow-1">
           <h6 class="text-center p-1 m-1 fs-2 fs-md-3 fs-lg-4" style="color: white; font-family: 'Playfair Display', serif;"><b>ADMIN</b></h6>
           <?php else: ?>
