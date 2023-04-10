@@ -15,7 +15,7 @@
     <ul class="navbar-nav ml-auto">
      
       <li class="nav-item">
-        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+        <a class="nav-link text-navy" data-widget="fullscreen" href="#" role="button">
           <i class="fas fa-expand-arrows-alt"></i>
         </a>
       </li>
@@ -23,9 +23,9 @@
             <a class="nav-link"  data-toggle="dropdown" aria-expanded="true" href="javascript:void(0)">
               <span>
                 <div class="d-felx badge-pill">
-                  <span class="fa fa-user mr-2"></span>
-                  <span><b><?php echo ucwords($_SESSION['login_firstname']) ?></b></span>
-                  <span class="fa fa-angle-down ml-2"></span>
+                  <span class="fa fa-user mr-2 text-navy"></span>
+                  <span class="text-navy"><b><?php echo ucwords($_SESSION['login_firstname']) ?></b></span>
+                  <span class="fa fa-angle-down ml-2 text-navy"></span>
                 </div>
               </span>
             </a>
