@@ -7,7 +7,7 @@
     </div>
     <div class="sidebar pb-4 mb-4">
       <div class="d-flex flex-column">
-        <img src="assets/uploads/logo3.png" class="img-fluid" style="height: auto; width: 100%; background-color: none;">
+        <img src="assets/uploads/logo3.png" class="img-fluid" style="height: auto; width: 100%; background-color: none; padding-bottom: 50px;">
         <div class="d-flex flex-column justify-content-center align-items-center flex-grow-1">
           <h6 class="text-center p-1 m-1 fs-2 fs-md-3 fs-lg-4" style="color: white; font-family: 'Playfair Display', serif;"><b>ADMIN</b></h6>
           <?php else: ?>
