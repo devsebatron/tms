@@ -169,6 +169,19 @@ font-weight: bold;
 .foot-lnk{
   text-align:center;
 }
+.login-form .group .button {
+  background: white;
+  color: #000080;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out; /* Add transition for all properties */
+}
+
+.login-form .group .button:hover {
+  background-color: #000080;
+  color: white;
+  transform: scale(1.1); /* Add scale transformation */
+}
+
 </style>
 <body>
 <div class="login-wrap">
