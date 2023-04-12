@@ -31,16 +31,18 @@ include('./db_connect.php');
 .clearfix:after{clear:both;display:block}
 a{color:inherit;text-decoration:none}
 
-.login-wrap{
-  width:100%;
+.login-wrap {
+  width: 100%;
   margin: auto;
-  max-width:500px;
-  min-height:512px;
-  position:relative;
-  background:url(https://cdn.elearningindustry.com/wp-content/uploads/2020/07/how-to-make-project-management-successful.jpg) no-repeat center;
+  max-width: 500px;
+  min-height: 512px;
+  position: relative;
+  background: url(https://cdn.elearningindustry.com/wp-content/uploads/2020/07/how-to-make-project-management-successful.jpg) no-repeat center;
   background-size: cover;
-  box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+  background-position: center -10px; /* Move the background image down 50px */
+  box-shadow: 0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
 }
+
 .login-html{
   width:100%;
   height:100%;
@@ -173,18 +175,30 @@ font-weight: bold;
   background: white;
   color: #000080;
   font-weight: bold;
-  transition: all 0.2s ease-in-out; /* Add transition for all properties */
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
 .login-form .group .button:hover {
   background-color: #000080;
   color: white;
-  transform: scale(1.1); /* Add scale transformation */
+  transform: scale(1.1);
 }
+.image-container {
+  background-color: white;
+}
+
+.image-container img {
+  width: 50%; 
+}
+
+
 
 </style>
 <body>
 <div class="login-wrap">
+<div class="image-container">
+<img src="assets/uploads/logo.png" alt="logo" style="background-color: white;">
+</div>
   <form action="" id="login-form">
       <div class="login-html">
         <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
