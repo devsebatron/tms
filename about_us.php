@@ -25,7 +25,7 @@
 						<img src="assets\uploads\nevin.jpg" alt="Developer 2" class="img-fluid rounded-circle mb-2" width="150">
 						<h3>Nevin Sebastian</h3>
 						<p class="text-secondary">Back-end Developer</p>
-						<p>Jane is an expert in server-side programming languages such as PHP and Node.js. She enjoys optimizing code and improving website performance.</p>
+						<p>Nevin Sebastian is an experienced back-end developer with a strong proficiency in Java, Python, and PHP. He excels at designing and deploying scalable web applications, developing APIs, and managing databases. Nevin's expertise in software architecture and collaborative approach make him a valuable addition to any development team.</p>
 					</div>
 				</div>
 			</div>
