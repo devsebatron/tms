@@ -11,7 +11,8 @@
         <div class="d-flex flex-column justify-content-center align-items-center flex-grow-1">
           <h6 class="text-center p-1 m-1 fs-2 fs-md-3 fs-lg-4" style="color: white; font-family: 'Playfair Display', serif;"><b>ADMIN</b></h6>
           <?php else: ?>
-          <h5 class="text-center p-4 m-4"><b>USER</b></h5>
+            <img src="assets/uploads/logo3.png" class="img-fluid" style="height: auto; width: 100%; background-color: none;  padding-top: 50px;">
+          <h5 class="text-center p-4 m-4">Employee</h5>
           <?php endif; ?>
         </div>
         <nav class="mt-3">
