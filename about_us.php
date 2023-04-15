@@ -32,7 +32,7 @@
 			<div class="col-md-4">
 				<div class="card">
 					<div class="card-body text-center">
-						<img src="developer3.jpg" alt="Developer 3" class="img-fluid rounded-circle mb-2" width="150">
+						<img src="assets\uploads\kubber.jpg" alt="Developer 3" class="img-fluid rounded-circle mb-2" width="150">
 						<h3>Kubber Bansal</h3>
 						<p class="text-secondary">Full-stack Developer</p>
 						<p>Mike is a jack-of-all-trades developer who enjoys building robust and scalable web applications. He's passionate about open-source technologies and is always learning new skills.</p>
