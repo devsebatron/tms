@@ -35,7 +35,7 @@
 						<img src="assets\uploads\kubber.png" alt="Developer 3" class="img-fluid rounded-circle mb-2" width="150">
 						<h3>Kubber Bansal</h3>
 						<p class="text-secondary">Full-stack Developer</p>
-						<p>Mike is a jack-of-all-trades developer who enjoys building robust and scalable web applications. He's passionate about open-source technologies and is always learning new skills.</p>
+						<p>Kubber Bansal has years of expertise as a Fullstack developer and is quite proficient in Java, Python, and PHP. He is incredibly skilled at creating scalable web apps, creating APIs, and managing databases. Nevin is a wonderful addition to any development team due to his experience in software architecture and collaborative style.</p>
 					</div>
 				</div>
 			</div>
