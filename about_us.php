@@ -12,7 +12,7 @@
 			<div class="col-md-4">
 				<div class="card">
 					<div class="card-body text-center">
-						<img src="assets\uploads\innama1.jpg" alt="Developer 1" class="img-fluid rounded-circle mb-2" width="150">
+						<img src="assets\uploads\innama.png" alt="Developer 1" class="img-fluid rounded-circle mb-2" width="150">
 						<h3>Innama Asghar</h3>
 						<p class="text-secondary">Lead Developer</p>
 						<p>Innama Asghar has a background in front-end development and user interface design. Her primary area of expertise is Java. She fits perfectly with any development team due to her strong communication and teamwork abilities.</p>
@@ -22,7 +22,7 @@
 			<div class="col-md-4">
 				<div class="card">
 					<div class="card-body text-center">
-						<img src="assets\uploads\nevin.jpg" alt="Developer 2" class="img-fluid rounded-circle mb-2" width="150">
+						<img src="assets\uploads\nevin.png" alt="Developer 2" class="img-fluid rounded-circle mb-2" width="150">
 						<h3>Nevin Sebastian</h3>
 						<p class="text-secondary">Back-end Developer</p>
 						<p>Nevin Sebastian is an experienced back-end developer with a strong proficiency in Java, Python, and PHP. He excels at designing and deploying scalable web applications, developing APIs, and managing databases. Nevin's expertise in software architecture and collaborative approach make him a valuable addition to any development team.</p>
@@ -32,7 +32,7 @@
 			<div class="col-md-4">
 				<div class="card">
 					<div class="card-body text-center">
-						<img src="assets\uploads\kubber.jpg" alt="Developer 3" class="img-fluid rounded-circle mb-2" width="150">
+						<img src="assets\uploads\kubber.png" alt="Developer 3" class="img-fluid rounded-circle mb-2" width="150">
 						<h3>Kubber Bansal</h3>
 						<p class="text-secondary">Full-stack Developer</p>
 						<p>Mike is a jack-of-all-trades developer who enjoys building robust and scalable web applications. He's passionate about open-source technologies and is always learning new skills.</p>
