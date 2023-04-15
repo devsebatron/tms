@@ -12,10 +12,10 @@
 			<div class="col-md-4">
 				<div class="card">
 					<div class="card-body text-center">
-						<img src="assets\uploads\innama.jpg" alt="Developer 1" class="img-fluid rounded-circle mb-2" width="150">
+						<img src="assets\uploads\innama1.jpg" alt="Developer 1" class="img-fluid rounded-circle mb-2" width="150">
 						<h3>Innama Asghar</h3>
 						<p class="text-secondary">Lead Developer</p>
-						<p>John has over 10 years of experience in software development. He specializes in front-end development and user interface design.</p>
+						<p>Innama Asghar has a background in front-end development and user interface design. Her primary area of expertise is Java. She fits perfectly with any development team due to her strong communication and teamwork abilities.</p>
 					</div>
 				</div>
 			</div>
