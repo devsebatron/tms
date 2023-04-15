@@ -6,7 +6,7 @@ if($_SESSION['login_type'] != 1)
 ?>
 <!-- Info boxes -->
  <div class="col-20">
-      <div class="card w-100" style="height: 400px; width: 900px">
+      <div class="card w-100" style="height: 60px; width: 900px">
       <div class="card-body" style="height: 500px; width: 800px;">
         Welcome <?php echo $_SESSION['login_name'] ?>!
       </div>
