@@ -4,6 +4,7 @@
 <head>
 	<title>About Us - KIN Task Management System</title>
 	<!-- include your CSS and JavaScript files here -->
+	
 </head>
 <body>
 	<div class="container">
@@ -29,6 +30,8 @@
 					</div>
 				</div>
 			</div>
+			
+
 			<div class="col-md-4">
 				<div class="card">
 					<div class="card-body text-center">
